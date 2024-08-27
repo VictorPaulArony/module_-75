@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"linear-stats/linear"
 	"log"
 	"os"
 	"strconv"
 	"strings"
+
+	"linear-stats/linear"
 )
 
 func main() {
