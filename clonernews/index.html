@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker News UI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hacker News</h1>
+        <!-- <div id="live-updates">
+            <h3>Live Updates</h3>
+            <p id="latest-update"></p>
+        </div> -->
+        <div class="tabs">
+            <div class="tab active" data-tab="top">
+                Top Stories
+                <div class="notificationsm" id="notification-top"></div>
+            </div>
+            <div class="tab" data-tab="new">
+                New Stories
+                <div class="notificationsm" id="notification-new"></div>
+            </div>
+            <div class="tab" data-tab="ask">
+                Ask HN
+                <div class="notificationsm" id="notification-ask"></div>
+            </div>
+            <div class="tab" data-tab="show">
+                Show HN
+                <div class="notificationsm" id="notification-show"></div>
+            </div>
+            <div class="tab" data-tab="job">
+                Jobs
+                <div class="notificationsm" id="notification-job"></div>
+            </div>
+            <div class="tab" data-tab="poll">
+                Polls
+                <div class="notificationsm" id="notification-poll"></div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="top" class="tab-content active">
+                <ul id="posts-top"></ul>
+            </div>
+            <div id="new" class="tab-content">
+                <ul id="posts-new"></ul>
+            </div>
+            <div id="ask" class="tab-content">
+                <ul id="posts-ask"></ul>
+            </div>
+            <div id="show" class="tab-content">
+                <ul id="posts-show"></ul>
+            </div>
+            <div id="job" class="tab-content">
+                <ul id="posts-job"></ul>
+            </div>
+            <div id="poll" class="tab-content">
+                <ul id="posts-poll"></ul>
+            </div>
+        </div>
+        <button id="load-more" class="load-more">Load More</button>
+    </div>
+    <!-- Notification Container -->
+    <div class="notification-container" id="live-update-container"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
